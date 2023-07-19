@@ -8,7 +8,12 @@
         flex-direction: column;
     }
 
-    ..grid-container{
+    .grid-container{
+        flex-direction: column;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    .online-play{
         flex-direction: column;
         grid-template-columns: repeat(1 1fr);
     }
