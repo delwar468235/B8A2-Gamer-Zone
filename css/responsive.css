@@ -1,24 +1,22 @@
-@media screen and (max-width:400px) {
-
+@media screen and (max-width: 576px){
     .nav-container{
         flex-direction: column;
-    }
-
-    .banner-container{
-        flex-direction: column;
-    }
-
-    .grid-container{
-        flex-direction: column;
-        grid-template-columns: repeat(1 1fr);
-    }
-
-    .online-play{
-        flex-direction: column;
-        grid-template-columns: repeat(1 1fr);
-    }
-    
 }
+
+.nav-items-container{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+
+}
+
+.banner-container{
+flex-direction: column;
+
+
+}
+
+
 /* product item style end  */
 
     
